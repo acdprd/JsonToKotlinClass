@@ -129,6 +129,5 @@ interface KotlinClass {
         val LONG = object : UnModifiableNoGenericClass() {
             override val name: String = "Long"
         }
-
     }
 }
