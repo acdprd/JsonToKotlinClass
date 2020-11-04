@@ -1,5 +1,6 @@
 package extensions
 
+import extensions.acdprd.StartsWithUnderScore
 import extensions.chen.biao.KeepAnnotationSupport
 import extensions.jose.han.ParcelableAnnotationSupport
 import extensions.ted.zeng.PropertyAnnotationLineSupport
@@ -23,6 +24,7 @@ object ExtensionsCollector {
             ClassNameSuffixSupport,
             PrimitiveTypeNonNullableSupport,
             ForceInitDefaultValueWithOriginJsonValueSupport,
-            DisableDataClassSupport
+            DisableDataClassSupport,
+            StartsWithUnderScore
     )
 }
